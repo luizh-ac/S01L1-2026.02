@@ -1,1 +1,1 @@
-# S01L1-2026.02
+Git Repository for S01L1 activities during 2026.02
