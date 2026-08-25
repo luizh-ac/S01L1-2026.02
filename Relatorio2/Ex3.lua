@@ -19,8 +19,8 @@ end
 
 print("Digite o limite (K)")
 local K = tonumber(io.read())
-
 local t2 = filtrarMaiores(t1, K)
+
 print("Elementos maiores que ", K)
 for j = 1, #t2 do
     print(t2[j])

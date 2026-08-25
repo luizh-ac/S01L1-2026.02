@@ -1,6 +1,6 @@
 function gerarTabelaPotencias(M, N, b)
     for i = M, N do
-        print(b, " ^ ", i, " = ", b^i)
+        print(b, " ^ ", i, " = ", b ^ i)
     end
 end
 

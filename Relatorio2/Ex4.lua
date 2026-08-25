@@ -4,7 +4,7 @@ function analisarNumeros(a, b, op)
     elseif op == "maior" then
         encontrarMaior(a, b)
     elseif op == "diferenca" then
-        calcularDiferencaAbsoluta(a, b)
+        calcularDifAbsoluta(a, b)
     else
         print("Operacao invalida")
     end
@@ -22,7 +22,7 @@ function encontrarMaior(a, b)
     end
 end
 
-function calcularDiferencaAbsoluta(a, b)
+function calcularDifAbsoluta(a, b)
     print(math.abs(a - b))
 end
 

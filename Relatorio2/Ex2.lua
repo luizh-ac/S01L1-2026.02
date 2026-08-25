@@ -10,7 +10,8 @@ end
 
 print("Digite a quantidade de elementos")
 local N = tonumber(io.read())
-local aux ; local t = {}
+local aux
+local t = {}
 
 for i = 1, N do
     print("Digite o elemento ", i,":" )
